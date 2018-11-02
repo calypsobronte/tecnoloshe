@@ -18,5 +18,24 @@ public class tiposDatos
         //Logico - > boolean 2 bytes
         boolean isVisible = true;
         boolean funciona = false;
+
+        byte tipoByte = 0;
+        short tipoShort =0;
+        int tipoInt = 0;
+        char tipoChart;
+        long tipoLong = 2140000001;
+        float tipoFloat = 0.0f;
+        double tipoDouble = 0.0;
+        boolean tipoBoolean = false;
+
+        tipoByte = 127;
+        tipoShort = 1247;
+
+        short tipoShortDos = tipoByte;
+        System.out.println("Cuando tipo de "+ tipoShortDos);
+
+        byte tipoByteDos = (byte) tipoShort;
+
+
     }
 }
