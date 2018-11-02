@@ -60,5 +60,19 @@ public class edad {
             System.out.println("Get out here!!");
         }
 
+        // otro
+        if (edad1 > 18 )
+        {
+            //No entra porque no ingresa porque no se cumpel la condicion
+            System.out.println("Eres mayor de edad");
+
+        }else if (edad1 == 18)
+        {//Vete de aqui
+            System.out.println("tienes 18 anos");
+        }else
+            {
+                System.out.println("No es mayor");
+        }
+
     }
 }
